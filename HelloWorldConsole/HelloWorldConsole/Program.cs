@@ -12,7 +12,7 @@ namespace HelloWorldConsole
     {
         static void Main(string[] args)
         {
-            System.Collections.Stack source<int> = new System.Collections.Stack<int>();
+            Stack<int> source = new Stack<int>();
             source.Push(1);
             source.Push(2);
             source.Push(3);
