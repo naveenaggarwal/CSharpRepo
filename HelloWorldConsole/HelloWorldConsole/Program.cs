@@ -18,6 +18,11 @@ namespace HelloWorldConsole
             source.Push(3);
             source.Push(4);
             Stack<int> target = ReverseStack.Reverse(source);
+            while (target.Count != 0)
+            {
+                Console.WriteLine(target.Pop());
+            }
+            Console.ReadLine();
             
         }
     }
